@@ -1,7 +1,7 @@
 .PHONY: build
 
 IMAGE_NAME = mozc_ut2
-MAJOR_VERSION = bionic
+MAJOR_VERSION = xenial
 
 build: ## build mozc_ut2
 	@echo -e "\nbuilding mozc-ut2 package..\n"	
