@@ -12,7 +12,7 @@ $ docker cp mozc_ut2:/app/ ./deb/
 $ docker rm mozc_ut2
 $ cd deb
 
-# If you are using fxitx-mozc
+# If you are using fcitx-mozc
 $ sudo dpkg -i ./mozc-data_*.deb ./mozc-server_*.deb ./mozc-utils-gui_*.deb ./ibus-mozc_*.deb ./fcitx-mozc_*.deb
 
 # Or using ibus-mozc
