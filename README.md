@@ -4,7 +4,7 @@ This repository contains a script for build [Mozc UT2](http://www.geocities.jp/e
 
 ## Usage
 
-*****`docker`** is required for pulling image
+`docker` is required to pull the image
 
 ```bash
 $ docker run -d --name mozc_ut2 shufo/mozc_ut2:bionic
