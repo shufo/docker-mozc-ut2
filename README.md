@@ -7,9 +7,9 @@ This repository contains a script for build [Mozc UT2](http://www.geocities.jp/e
 `docker` is required to pull the image
 
 ```bash
-$ docker run -d --name mozc_ut2 shufo/mozc_ut2:bionic
-$ docker cp mozc_ut2:/app/ ./deb/
-$ docker rm mozc_ut2
+$ docker run -d --name mozc-ut2 shufo/mozc-ut2:bionic
+$ docker cp mozc-ut2:/app/ ./deb/
+$ docker rm mozc-ut2
 $ cd deb
 
 # If you are using fcitx-mozc
